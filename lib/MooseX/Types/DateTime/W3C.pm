@@ -2,7 +2,10 @@ use strict;
 use warnings;
 package MooseX::Types::DateTime::W3C;
 BEGIN {
-  $MooseX::Types::DateTime::W3C::VERSION = '1.103220';
+  $MooseX::Types::DateTime::W3C::AUTHORITY = 'cpan:AJGB';
+}
+BEGIN {
+  $MooseX::Types::DateTime::W3C::VERSION = '1.103360';
 }
 #ABSTRACT: W3C DateTime format type constraint
 
@@ -13,7 +16,7 @@ use MooseX::Types -declare =>[qw(
 use MooseX::Types::Moose qw( Str Num );
 
 use DateTime;
-use DateTime::TimeZone;
+use DateTime::TimeZone 1.26;
 
 subtype DateTimeW3C,
     as Str,
@@ -89,7 +92,7 @@ MooseX::Types::DateTime::W3C - W3C DateTime format type constraint
 
 =head1 VERSION
 
-version 1.103220
+version 1.103360
 
 =head1 SYNOPSIS
 

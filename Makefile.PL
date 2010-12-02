@@ -29,11 +29,11 @@ my %WriteMakefileArgs = (
   'NAME' => 'MooseX::Types::DateTime::W3C',
   'PREREQ_PM' => {
     'DateTime' => '0',
-    'DateTime::TimeZone' => '0',
+    'DateTime::TimeZone' => '1.26',
     'MooseX::Types' => '0',
     'MooseX::Types::Moose' => '0'
   },
-  'VERSION' => '1.103220',
+  'VERSION' => '1.103360',
   'test' => {
     'TESTS' => 't/*.t'
   }

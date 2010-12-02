@@ -2,7 +2,7 @@ NAME
     MooseX::Types::DateTime::W3C - W3C DateTime format type constraint
 
 VERSION
-    version 1.103220
+    version 1.103360
 
 SYNOPSIS
         package My::Class;

@@ -23,14 +23,14 @@ my %module_build_args = (
     'Alex J. G. Burzyński <ajgb@cpan.org>'
   ],
   'dist_name' => 'MooseX-Types-DateTime-W3C',
-  'dist_version' => '1.103220',
+  'dist_version' => '1.103360',
   'license' => 'perl',
   'module_name' => 'MooseX::Types::DateTime::W3C',
   'recommends' => {},
   'recursive_test_files' => 1,
   'requires' => {
     'DateTime' => '0',
-    'DateTime::TimeZone' => '0',
+    'DateTime::TimeZone' => '1.26',
     'MooseX::Types' => '0',
     'MooseX::Types::Moose' => '0'
   },
